@@ -1,6 +1,5 @@
 #!/home/steve/anaconda3/bin/python
 
-import h5py
 import tio
 
 

@@ -1,3 +1,11 @@
+## @package docstring
+#A module for TIO description.
+#
+##
+
+import h5py
+
+## @class tio_file
 class TIO_File:
     def __init__(self, filename):
         self.filename = filename
