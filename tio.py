@@ -106,3 +106,25 @@ class TIO_Material:
         '''Print info to screen about the TIO_Material object'''
         print("State {0}".format(self.name))
 
+
+class TIO_Quant:
+    def __init__(self, name):
+        '''Initialise the TIO_Quant object'''
+        self.name = name
+        self.chunks = {}
+    
+    def Open(self):
+        '''Open the TIO_Quant object'''
+        pass
+
+    def Close(self):
+        '''Close the TIO_Quant object'''
+        pass
+    
+    def Get_Info(self):
+        '''Return info about the TIO_Quant object'''
+        pass
+    
+    def Print(self):
+        '''Print info to screen about the TIO_Quant object'''
+        print("State {0}".format(self.name))
