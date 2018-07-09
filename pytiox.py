@@ -4,7 +4,9 @@ import tio
 
 
 tiofile = tio.TIO_File("test.h5")
-tiofile.Add_State("state001")
-
+print(tiofile)
+tiofile.Set_Info("thor","3.0.2","test calculation")
 tiofile.Print()
-tiofile.states["state001"].Print()
+tiofile.Open('w')
+tiofile.Write()
+tiofile.Close()
